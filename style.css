@@ -2,6 +2,86 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b2bec3;
+    margin: 0;
+}
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0;
+    line-height: 1;
+}
+
+p {
+    margin: 30px 0;
+}
+
+.box {
+    background-color: white;
+    width: 560px; /*dle zadání 550px, ale pak stránka nevypadá přesně jak ve vzorovém výsledku*/
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    position: relative;
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.tlacitka li {
+    display: block;
+    border-radius: 5px;
+}
+
+.tlacitka {
+    margin: 0;
+    padding: 0;
+}   
+
+.twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook:hover {
+    background-color: #2b406e;
+}
+
+
+
+
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
